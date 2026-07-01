@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+}
+
+header{
+    background:#333;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    height:90vh;
+    background:linear-gradient(to right,#4facfe,#00f2fe);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+button{
+    padding:10px 20px;
+    margin-top:20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+section{
+    padding:50px;
+    text-align:center;
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:20px;
+    margin:20px auto;
+    max-width:400px;
+    border-radius:10px;
+}
